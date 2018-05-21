@@ -4,8 +4,8 @@ const router = new Router({ prefix: '/todos' });
 
 router.get('/', async (ctx, next) => {
   ctx.body = [
-    {'title': 'todo1'},
-    {'title':'todo2'}
+    {'title': 'My First Todo'},
+    {'title':'Another Todo'}
   ];
 
   await next();

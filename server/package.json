@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "$(npm bin)/nodemon src/app.js",
+    "lint": "$(npm bin)/eslint src/",
     "build": "$(npm bin)/webpack -d",
     "build:prod": "$(npm bin)/webpack -p"
   },

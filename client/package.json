@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "$(npm bin)/ng",
-    "start": "$(npm bin)/ng serve",
-    "start:hmr": "$(npm bin)/ng serve --hmr -e=hmr",
+    "start": "$(npm bin)/ng serve --proxy-config proxy.conf.json",
+    "start:hmr": "$(npm bin)/ng serve --hmr -e=hmr --proxy-config proxy.conf.json",
     "build": "$(npm bin)/ng build",
     "build:prod": "$(npm bin)/ng build --prod",
     "test": "$(npm bin)/ng test",
