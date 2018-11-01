@@ -1,12 +1,12 @@
 # KoaJS 2, AngularJS 5+ Starter Project
 
-A starter project for a web application powered by KoaJS 2 (server) and AngularJS 5+ (client). Dockerized and designed for full separation of client and server codebases, served by Nginx. 
+A starter project for a web application powered by KoaJS 2.5 (server) and AngularJS 7 (client). Dockerized and designed for full separation of client and server codebases, served by Nginx. 
 
 ## Development Quick Start 
 
 Clone the repository:
 
-    $ git clone https://github.com/cacois/angular5-koa2-starter
+    $ git clone https://github.com/cacois/angular7-koa2-starter
 
 Start the server:
 
