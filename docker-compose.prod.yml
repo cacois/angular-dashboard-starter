@@ -1,0 +1,26 @@
+version: '3'
+# For production deployment. Builds/runs two containers:
+#   1. The server/api app
+#   2. An Nginx container serving the client app at / and the api at /api
+#
+#  If you need one, add a third container for a database
+#
+services:
+  api:
+    image: starter-api
+    build: ./server
+    restart: always
+    container_name: starter-api
+
+  client:
+    image: starter-web
+    build: ./client/docker
+    restart: always
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - ./client/dist:/var/www/starter-app
+    container_name: starter-web
+    depends_on:
+      - api
