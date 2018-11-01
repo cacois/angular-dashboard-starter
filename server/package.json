@@ -10,11 +10,11 @@
   },
   "private": true,
   "dependencies": {
+    "copy-webpack-plugin": "^4.5.2",
     "koa": "^2.5.0",
     "koa-body": "^2.5.0",
     "koa-logger": "^3.2.0",
-    "koa-router": "^7.4.0",
-    "copy-webpack-plugin": "^4.5.2"
+    "koa-router": "^7.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
