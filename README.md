@@ -1,4 +1,4 @@
-# KoaJS 2, AngularJS 5+ Starter Project
+# KoaJS 2, AngularJS 7 Starter Project
 
 A starter project for a web application powered by KoaJS 2.5 (server) and AngularJS 7 (client). Dockerized and designed for full separation of client and server codebases, served by Nginx. 
 
