@@ -20,24 +20,24 @@ export class FrameComponent implements OnInit {
         url: '/hello'
       },
       {
-        title: 'Actions',
+        title: 'Something...',
         iconStyleClass: 'fa fa-gears',
-        url: '/actions',
+        url: '/something',
         badges: [
           {
             count: 1234,
-            tooltip: 'Total number of actions'
+            tooltip: 'Total number of somethings'
           }
         ]
       },
       {
-        title: 'Triggers',
+        title: 'Other',
         iconStyleClass: 'fa fa-gears',
-        url: '/hello',
+        url: '/other',
         badges: [
           {
             count: 1,
-            tooltip: 'Total number of triggers'
+            tooltip: 'Total number of others'
           }
         ]
       },
